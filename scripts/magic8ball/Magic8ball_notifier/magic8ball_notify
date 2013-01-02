@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#edit the python file location to your liking and edit -t time for exact seconds, 10000 = 10 seconds
+#edit your /home/user/.config/openbox/rc.xml and make a keybinding for it if you like
+# an example keybinding:
+#  <!-- Keybindings for bandquote_notify -->
+#   <keybind key="C-A-i">
+#     <action name="Execute">
+#       <command>bash /home/user/Band_quote_notifier/bandquote_notify</command>
+#     </action>
+#   </keybind>
+#
+# This will give you a key combination of ctrl (the C), alt (the A), and I (the i).
+
+notify-send --urgency=normal -t 10000  "$(python /home/todd/scripts/Magic8ball_notifier/magic8ball.py)"
+	exit 1
+	done
