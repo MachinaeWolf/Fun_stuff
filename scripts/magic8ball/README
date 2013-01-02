@@ -1,0 +1,4 @@
+Note: Must have the graphics.py file in the same directory as graphical_magic8ball.py or the program Will NOT run properly.
+Linux Dependencies: Also if you don't have python-tk installed and/or python3-tk installed (if you wish to use python3), INSTALL it otherwise the program may not run!
+For non-linux users: install either python2.x  or the python3.x version (whatever your preference/need) from http://www.python.org/download/ .
+For the convenience of the linux people I have included an executable script that runs the program, just click on the graphical_magic8ball.sh to run it.
