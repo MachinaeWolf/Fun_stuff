@@ -1,0 +1,1 @@
+This script is linux exclusive due to it being a bash script. Edit the file location of the .py file listed in the bash script to your prefered location. Dependencies: python2.7 (you should have that if you run linux :D) and libnotifyd. This script also assumes you use openbox on your distro. Check both scripts for editable things and enjoy :)
