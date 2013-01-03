@@ -12,11 +12,12 @@ def main():
         
 	#Asks the user how many characters they want the password to be
 	nums = int(input("How long would you like the password to be? Enter a number: "))
-
+	print("")
+	
 	#Gathers a random character from everything added together and generates those characters based on how many characters the user wanted
 	for i in range(nums):
 		print (random.choice(everything), end='')
-	print("")
+	print("\n")
 
 	#Run again?
 	multirun = input("Do you want to generate another password? Enter yes or no: ")
